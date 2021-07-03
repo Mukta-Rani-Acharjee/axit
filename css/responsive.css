@@ -1,0 +1,340 @@
+
+    
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .navbar button{
+      color: white;
+    }
+    .banner{
+        height: auto;
+        padding: 60px;
+    }
+    .banner-text{
+        height: auto;
+    }
+    .banner-form{
+        height: auto;
+        
+    }
+    .banner-form .card{
+        margin-left:0;
+
+    }
+    .banner-text h1 {
+        font-size: 17px;
+       
+
+    }
+    .social-icon ul li{
+        
+        margin: 0 10px;
+        font-size: 40px;
+       
+    }
+    .social-icon ul{
+        margin-top: 31px;
+    }
+    .social-icon .col-md-8{
+        text-align: center;
+    }
+    .feature-1 {
+      padding: 70px 0;
+    }
+    .item-1 h4{
+      font-size: 22px;
+    }
+    
+    .item-2 h4{
+      font-size: 22px;
+    }
+    
+    .item-3 h4{
+      font-size: 22px;
+    }
+    .feature-1 .col-md-2{
+      margin-top: 60px;
+    }
+    .feature-2 .row{
+      flex-direction: column;
+    }
+    .feature-2 .col-md-5{
+      max-width: 100%;
+      text-align: center;
+    }
+    .feature-2 .circle .icon{
+      right:69px;
+    }
+    
+.feature-2 h3 {
+  padding: 18px;
+  margin-left: 75px;
+}
+.feature-2 p {
+  margin-left: 78px;
+}
+.feature-2 .new-active{
+  margin: 0 auto;
+}
+
+.feature-2 .img-2{
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature-2 .line-2{
+  margin: 30px auto;
+}
+.feature-3{
+  padding: 60px 0;
+}
+
+.feature-3 .line-3{
+  margin: 0 auto;
+}
+
+.feature-3 h4{
+  margin-bottom: 26px;
+}
+
+.feature-3 p {
+  margin: 30px 0;
+}
+
+.feature-4{
+  padding: 60px 0;
+}
+.feature-4 h1 {
+  font-size: 25px;
+  margin-bottom: 26px;
+}
+
+.feature-4 .line-4{
+  margin: 15px auto;
+}
+.feature-4 .active-4 .new-circle{
+  right: 97px;
+}
+.feature-4 .active-4 .new-active{
+ margin-left: 0;
+ margin-right: 0;
+}
+
+.pricing{
+  padding: 50px 0;
+}
+.comment-section{
+  padding: 0;
+}
+
+.user-info .col-md-8{
+  padding: 17px;
+}
+
+.user-info .col-md-4 img{
+  margin-top: 10px;
+  }
+  .last-icon ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    color: white !important;
+    margin-top: 26px;
+    font-size: 31px;
+}
+.last-icon p{
+  font-size: 20px;
+}
+
+  }
+  
+ 
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media only screen and (max-width: 600px) {
+    .banner{
+      height: auto;
+    }
+    
+    .banner-form .card {
+      margin: 0 9px;
+      text-align: center;
+    }
+    .banner .banner-all{
+      margin-left:0;
+      margin-right: 0;
+    }
+    .banner-text{
+      height:auto;
+      text-align: center;
+  }
+  .banner-text .line {
+    margin: 0 auto;
+    
+  }
+  .banner-form{
+    height: 85vh;
+  }
+    
+.banner-text h1{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.social-icon h4{
+  text-align: center;
+}
+.social-icon p{
+  text-align: center;
+}
+.social-icon ul li{
+  font-size: 27px;
+  margin: 0 9px;
+ 
+}
+.feature-1{
+  padding: 60px 0;
+}
+.feature-1 ul li {
+  width: 100px;
+  display: inline-block;
+}
+.feature-1 .col-md-6{
+  margin-top: 20px;
+  }
+  .feature-1 .col-md-2{
+    margin-left: 10px;
+  }
+  .feature-1 .col-md-6  .item-1 h4{
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .feature-1 .col-md-6  .item-2 h4{
+    font-size: 22px;
+    text-align: center;
+}
+  
+  
+  .feature-1 .col-md-6  .item-3 h4{
+    font-size: 22px;
+    text-align: center;
+  }
+  .feature-1 .col-md-4 img{
+    margin-top: 45px;
+  }
+  
+.feature-2{
+  padding: 60px 0;
+}
+
+.feature-2 .col-md-5{
+  text-align: center;
+}
+
+.feature-2 .line-2{
+  margin: 30px auto;
+}
+
+.feature-2 .circle{
+  margin: auto;
+}
+.feature-2 .circle .icon {
+  right: 169px;
+}
+.feature-2 h3{
+  margin-top: 23px;
+}
+.feature-3{
+  padding: 60px 0;
+}
+.feature-3 .row{
+  flex-direction: column-reverse;
+}
+
+.feature-3 .col-md-6{
+  text-align: center;
+}
+.feature-3 .line-3 {
+  margin: 30px auto;
+}
+
+.feature-3 h4 {
+  margin-top: 23px;
+}
+.feature-4{
+  padding: 40px 0;
+}
+.feature-4 h1{
+  font-size: 29px;
+    margin-bottom: 32px;
+}
+
+.feature-4 .active-4 h3{
+  font-size: 22px;
+}
+
+.feature-4 p{
+  margin-bottom: 94px;
+}
+.pricing{
+  padding: 40px 0;
+}
+.pricing .price-table .col-md-4{
+  margin-bottom: 45px;
+}
+.testimonial{
+  padding: 50px 0;
+}
+
+.testimonial .title-1 {
+  font-size: 25px;
+}
+
+.testimonial .box-icon{
+  left: 99px;
+}
+
+.testimonial .msg-box {
+  text-align: center;
+  margin-left: 21px;
+}
+
+.user-info .col-md-4{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.user-info .col-md-8 {
+  padding: 0;
+  text-align: center;
+  margin-top: 21px;
+}
+.navbar-toggler {
+  background-color: white !important;
+}
+.contact{
+  padding: 50px 0;
+}
+.last-icon ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+  color: white !important;
+  margin-top: 34px;
+  font-size: 20px;
+}
+.last-icon p {
+  margin-top:5px;
+  margin-bottom: 1.5rem;
+  font-size: 13px;
+}
+  }
